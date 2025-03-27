@@ -135,9 +135,9 @@ print('Exercise 8:', product(2, 5, 5))
 
 # Exercise 9: Basic Calculator
 #
-# Create a function named `basic_calculator` that takes three arguments: 
-# two numbers and a string representing an operation ('add', 'subtract', 'multiply', 'divide'). 
-# Perform the provided operation on the two numbers. In operations where the order of numbers is important, 
+# Create a function named `basic_calculator` that takes three arguments:
+# two numbers and a string representing an operation ('add', 'subtract', 'multiply', 'divide').
+# Perform the provided operation on the two numbers. In operations where the order of numbers is important,
 # treat the first parameter as the first operand and the second parameter as the second operand.
 #
 # Examples:
@@ -164,6 +164,3 @@ def basic_calculator(num1, num2, operation):
     return 'Error: Invalid operation. Please use "add", "subtract", "multiply", or "divide".'
 
 print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
-
-
-
